@@ -7,8 +7,10 @@ setup(
     license='Apache v2.0',
     author='Paul Durivage',
     author_email='pauldurivage@gmail.com',
-    description='A sane configuration for Rollbar for Flask selfishly based '
-                'on my own needs',
+    description='A sane configuration for Rollbar for Flask, selfishly based on my own needs',
     packages=['flask_rollbar'],
-    install_requires=['rollbar>=0.11.0', 'flask>=0.10.1', "blinker==1.4"]
+    install_requires=[
+        'rollbar',
+        'flask',
+        'blinker']
 )
